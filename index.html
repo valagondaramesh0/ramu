@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>face book</title>
+	<style>
+		body
+		{
+			background-color: #f2f2f2;
+			margin: 0px;
+			color: blue;
+		}
+        #header
+        {
+        	background-color: skyblue;
+        	padding: 20px;
+        	display: flex;
+        	align-items: center;
+        	justify-content: space-around;
+         }
+         #header h2
+         {
+         	margin: 0px;
+         	font-size: 30px;
+         	height: 50px;
+         }
+       
+         #nav div
+         {
+         	color:black;
+         	text-decoration:none;
+         	padding: 5px 10px;
+         }
+         div input[type=submit]:hover
+         {
+         	background-color: blue;
+         	color: red;
+         }
+         div img
+         {
+         	width: 600px;
+         	height:395px;
+         	float:left;
+         }
+         
+         .abc
+         {
+            margin: 5px;
+            padding: 6px;
+            text-align: center;
+            height: 30px;
+            color: black;
+
+         }
+         #main-contant-wrapper
+         {
+            background-color: #f2f2f2;
+       height: 395px;
+       width: 600px;
+       text-align: center;
+       display: flex;
+       align-items:left;
+       justify-content:center;
+       flex-direction: column;
+       float: left; 
+         }
+         #main-contant-wrapper h2
+         {
+            margin: 0px;
+
+         }
+         .abc button:hover
+         {
+            background-color: red;
+            color: yellow;
+            box-shadow:  0 0 10px red;
+            border-radius: 20px 0px;
+            cursor: pointer;
+         }
+         input
+         {
+         	height: 25px;
+         	border-radius: 20px;
+         }
+         button
+         {
+         	width: 150px;
+         	height: 30px;
+         }
+           input[type=submit]
+         {
+         	height: 30px;
+         }
+          
+         footer
+         {
+         	background-color:skyblue;
+           text-align: center;
+           height: 100px;
+           text-decoration: none;
+           color: black;
+         }
+         footer h2
+         {
+         	margin: 0px;
+         }
+         @media(max-width: 900px)
+         {
+         	#header
+         	{
+         		flex-direction: column;
+         	}
+         	#nav
+         	{
+         		margin-top: 20px;
+         	}
+         }
+	</style>
+</head>
+<body>
+	<div id="header">
+	<h2>FACE BOOK</h2>
+	<form>
+	<div id="nav">
+		<tr>
+		<td><input type="text" placeholder="user name"></td>
+		<td><input type="password" placeholder="password"></td>
+		<td><input type="submit"></td>
+	</tr>
+	</div>
+</form>
+</div>
+	<div id="main-contant-wrapper">
+       <h2>FACE BOOK
+              </h2> 
+              <P>Facebook helps you connect and share <br> with the people in your life.</br></P>
+		
+	</div>
+	<div >
+    <form>
+    	<th><h2 align="center">Create New Account <br>It's quick and easy.</br></h2> </th>
+    	<div class="abc"><td><input type="text" placeholder="first name"></td>
+    	<td><input type="text" placeholder="surname"></td></div>
+    	<div class="abc"><input type="text" placeholder="mobail no.. or Email"></div>
+    	<div class="abc"><input type="text" placeholder="password"></div>
+    	<div class="abc"><input type="text" placeholder="conform password"></div>
+    	<div class="abc"><input type="date"></div>
+        <div class="abc"><label>GENDER:</label>
+         <input type="radio" name="h1">male
+         <input type="radio" name="h1">female</div>
+         <div class="abc"><button>signup</button></div>
+    </form>
+</div>
+ <div>
+ 	<footer>
+ 	<h2>copyRight:&copy;2021</h2>
+ 	<p>All Rights Are Reserved</p>
+ 	<p>Developed and mainted By
+ 	<a href="#">V RAMESH</a></p>
+ </footer>
+ </div>
+</body>
+</html>
